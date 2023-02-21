@@ -1,0 +1,4 @@
+@mixin section ($height, $padding) {
+    min-height: $height;
+    padding: $padding;
+}

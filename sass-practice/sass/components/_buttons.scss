@@ -1,0 +1,8 @@
+.button {
+    @extend %buttons;
+    &:hover {
+    background-color: $main-cl-dark;
+    }
+    border-radius: $border-radius;
+}
+

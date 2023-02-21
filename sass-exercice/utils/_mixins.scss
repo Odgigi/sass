@@ -1,0 +1,8 @@
+@mixin input ($display, $padding, $f-s, $width, $m-w, $margin) {
+    display: $display;
+    padding: $padding;
+    font-size: $f-s;
+    width: $width;
+    max-width: $m-w;
+    margin: $margin;
+  }

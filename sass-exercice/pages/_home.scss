@@ -1,0 +1,11 @@
+.inp-large {
+    @include input (block, 24px, 20px, 100%, 800px, 50px auto) ;
+  }
+  
+  .inp-small {
+    @include input (block, 16px, 14px, 100%, 250px, 50px auto) ;
+  }
+
+h2, h3, h4 {
+    @extend %title;
+}

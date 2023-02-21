@@ -1,0 +1,17 @@
+header {
+    height: 80px;
+    background-color: $main-cl;
+    padding: 10px 60px;
+    .logo {
+        color: $main-cl-darker;
+        font-size: 35px;
+    }
+    a {
+        color:#fff;
+    }
+}
+
+.header-logo {
+    text-align: center;
+}
+

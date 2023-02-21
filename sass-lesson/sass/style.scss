@@ -1,0 +1,16 @@
+// les imports permettent d'intégrer des fichiers partials
+// l'ordre est important : on importe les variables, les fonctions, le reset et le code dans un ordre logique
+
+@import 'utils/variables';
+@import 'utils/placeholders';
+@import 'utils/mixins';
+@import 'base/reset';
+@import 'base/base';
+@import 'components/links.scss';
+@import 'layout/header';
+@import 'pages/home';
+
+
+// scss = Sassy css "css à la sauce sass"
+// les imports permettent d'intégrer des fichiers partiels
+// Utile pour les éléments qui ont lieu d'être modifiés par ex. charte graphique

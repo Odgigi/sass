@@ -1,0 +1,35 @@
+// Nesting = imbrication
+// Attention le nesting crée des sélecteurs descendants par défaut
+
+.hero {
+    h2 {
+        color: $main-color-light;
+    }
+    &-paragraphe { // l'utilisation du préfixe "&" va créer un sélecteur indépendant
+        font-size: 50px;
+    }
+    background-color: pink;
+    padding: $padding;
+    p{
+        // utilisation d'un mixin
+        @include paragraphe(10px 20px, 14px); // nesting = imbrication
+    }
+    .detail {
+        a{
+            text-decoration: none;
+            &:hover{
+            color: red;
+            }
+        }
+        font-size: 20px;
+    }
+}
+
+.hero p {
+    // @include paragraphe(10px 20px, 32px);
+}
+
+.about-us p {
+    // utilisation d'un mixin
+    @include paragraphe(20px, 15px);
+}
